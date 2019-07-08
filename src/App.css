@@ -1,0 +1,42 @@
+.App {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.test-desc {
+
+	width: 45%;
+    font-size: 13px;
+    font-weight: normal;
+	margin: 0 auto;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.test-desc p {
+	border: 1px solid #fbd3d3;
+	padding: 20px;
+}
+
+.game-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.game {
+	border: 1px solid gray;
+	width: 600px;
+	height: 600px;
+	display: flex;
+	flex-flow: wrap;
+}
+
+.field {
+	width: 200px;
+	height: 200px;
+	outline:1px solid silver;
+	font-size: 145px;
+}
